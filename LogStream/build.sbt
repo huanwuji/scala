@@ -1,6 +1,3 @@
-name := "LogStream"
+SbtBuild.defaultSettings
 
-version := "1.0"
-
-scalaVersion := "2.11.6"
-    
+libraryDependencies ++= Dependencies.logStream
